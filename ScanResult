@@ -1,0 +1,23 @@
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2015-07-01 03:30 MSK
+Nmap scan report for 10.24.202.131
+Host is up (0.00034s latency).
+MAC Address: B8:88:E3:67:D4:8D (Compal Information (kunshan) CO.)
+Nmap scan report for 10.24.202.144
+Host is up (-0.100s latency).
+MAC Address: B8:70:F4:96:76:B3 (Compal Information (kunshan) CO.)
+Nmap scan report for 10.24.202.146
+Host is up (-0.098s latency).
+MAC Address: DC:0E:A1:DD:F0:16 (Compal Information (kunshan) CO.)
+Nmap scan report for 10.24.202.207
+Host is up (0.010s latency).
+MAC Address: 50:2E:5C:D3:E1:50 (Unknown)
+Nmap scan report for 10.24.202.210
+Host is up (0.13s latency).
+MAC Address: 68:9C:70:41:2C:67 (Apple)
+Nmap scan report for 10.24.202.243
+Host is up (0.45s latency).
+MAC Address: 5C:0A:5B:35:8B:1E (Samsung Electro-mechanics CO.)
+Nmap scan report for 10.24.202.214
+Host is up.
+Nmap done: 254 IP addresses (7 hosts up) scanned in 5.15 seconds
