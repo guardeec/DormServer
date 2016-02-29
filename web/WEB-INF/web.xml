@@ -9,12 +9,16 @@
         <servlet-class>services.ChangeMac</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>checkStatus</servlet-name>
+        <servlet-class>services.CheckStatus</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>getPingStatistics</servlet-name>
         <servlet-class>services.GetPingStatistic</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>checkStatus</servlet-name>
-        <servlet-class>services.CheckStatus</servlet-class>
+        <servlet-name>getWholePingStatistics</servlet-name>
+        <servlet-class>services.GetWholePingStatistics</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -22,11 +26,19 @@
         <url-pattern>/change</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
+        <servlet-name>checkStatus</servlet-name>
+        <url-pattern>/check</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
         <servlet-name>getPingStatistics</servlet-name>
         <url-pattern>/get</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>checkStatus</servlet-name>
-        <url-pattern>/check</url-pattern>
+        <servlet-name>getWholePingStatistics</servlet-name>
+        <url-pattern>/getWhole</url-pattern>
     </servlet-mapping>
+
+    <listener>
+        <listener-class>services.ApplicationInitializer</listener-class>
+    </listener>
 </web-app>

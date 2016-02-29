@@ -85,11 +85,7 @@ public class ChangeMac implements Runnable {
     public static Boolean isInetIsAvailable(){
         try {
             InetAddress address = InetAddress.getByName("www.google.com");
-            if (address.isReachable(10000)){
-                return true;
-            }else {
-                return false;
-            }
+            return address.isReachable(10000);
         } catch (IOException e) {
             return false;
         }
